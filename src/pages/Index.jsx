@@ -10,7 +10,7 @@ const Index = () => {
                         <div className="card h-100 text-white bg-dark border-light">
                             <img src={require('../images/person.jpg')} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title h-title h-title">Personajes</h5>
+                                <h5 className="card-title h-title">Personajes</h5>
                             </div>
                         </div>
                     </Link>

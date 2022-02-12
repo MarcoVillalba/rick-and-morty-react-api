@@ -1,14 +1,8 @@
-import './style/main.sass'
-import './style/Header.css'
-import './style/Personajes.css'
-import './style/Spinner.css'
-
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Spinner } from "./components/Spinner";
-
 
 // las pages cargamos con lazyLoad
 const Index = lazy(() => import('./pages/Index'));
