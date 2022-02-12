@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
 import { NotFound } from './NotFound';
 
-export const Personajes = () => {
+const Personajes = () => {
 
     const [personaje, setPersonaje] = useState([])
 
@@ -87,3 +87,5 @@ export const Personajes = () => {
         </div>
     )
 }
+
+export default Personajes

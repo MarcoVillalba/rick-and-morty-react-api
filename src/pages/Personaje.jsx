@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { Link, useParams } from "react-router-dom";
 import { NotFound } from './NotFound';
 
-export const Personaje = () => {
+const Personaje = () => {
 
     const [personaje, setPersonaje] = useState([])
 
@@ -48,3 +48,5 @@ export const Personaje = () => {
         </div>
     )
 }
+
+export default Personaje;

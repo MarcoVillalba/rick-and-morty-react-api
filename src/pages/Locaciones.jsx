@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { NotFound } from './NotFound';
 
-export const Locaciones = () => {
+const Locaciones = () => {
 
     const [locaciones, setLocaciones] = useState([])
 
@@ -49,3 +49,5 @@ export const Locaciones = () => {
         </div>
     )
 }
+
+export default Locaciones;

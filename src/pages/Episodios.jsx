@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { NotFound } from './NotFound';
 
-export const Episodios = () => {
+const Episodios = () => {
 
     const [episodios, setEpisodios] = useState([])
 
@@ -51,3 +51,5 @@ export const Episodios = () => {
         </div>
     )
 }
+
+export default Episodios;
